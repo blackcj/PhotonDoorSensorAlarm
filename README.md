@@ -1,6 +1,6 @@
 # Photon Door Sensor Alarm
 
-In this example we're going to wire up a door sensor that activates a piezo alarm.
+This is an example on how to wire up a door sensor and activate a piezo alarm. When the door is opened, an LED will light up and a tone will play. Using [WebHooks](https://docs.particle.io/guide/tools-and-features/webhooks/), you could record this data into a database or send a text message with the [Twilio API](https://www.twilio.com/).
 
 ### Required Parts
 
@@ -25,7 +25,7 @@ See the [door-sensor-alarm.ino](https://github.com/blackcj/PhotonDoorSensorAlarm
 
 ### WebHook
 
-You could optionally create a [WebHook](https://docs.particle.io/guide/tools-and-features/webhooks/) that makes an API request when the door is open. This would allow you to record each open and close event. 
+You could optionally create a [WebHook](https://docs.particle.io/guide/tools-and-features/webhooks/) that makes an API request when the door is open. This would allow you to record each open and close event.
 
 ## Resources
 
